@@ -18,7 +18,7 @@ namespace casestudy_4.Models
         [Required(ErrorMessage = "Phone is required.")]
         [Phone(ErrorMessage = "Invalid phone number format.")]
         public string Phone { get; set; } = string.Empty;
-
+//kkkkkkkkkkkkkkkkkk
         [Required(ErrorMessage = "BirthDate is required.")]
         public DateTime BirthDate { get; set; }
 
