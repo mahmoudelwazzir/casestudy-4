@@ -25,6 +25,7 @@ namespace casestudy_4.Controllers
             var coursedto = _mapper.Map<IEnumerable<GetAllCourseDTO>>(course);
             return Ok(coursedto);
         }
+        //sdgfdsgfdsgfdsgd
         [HttpPost]
         public async Task<IActionResult> CreateCourse(CreateCourseDTO dto)
         {
